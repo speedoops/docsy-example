@@ -16,6 +16,8 @@ defaultContentLanguageInSubdir = false
 # Useful when translating.
 enableMissingTranslationPlaceholders = true
 
+hasCJKLanguage = true
+
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 # Highlighting config
@@ -213,3 +215,5 @@ enable = false
 #	icon = "fa fa-envelope"
 #    desc = "Discuss development issues around the project"
 
+[params.comment]
+# walineServerURL = "https://replace-with-your-waline-server-url/waline"
